@@ -20,3 +20,9 @@
   + Added About Us page, faq and more.
   + Added propper footer.
   +  remove unnecessary css & html code. Improved overall UX/UI.
+
+
+- 23/10/2023 - 6:04 PM
+  + Re-run and overhaul the code.
+  + Linked the footer propperly.
+  + Remove unnecessary css & html code. Improved overall UX/UI.
