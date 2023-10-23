@@ -21,7 +21,7 @@
   justify-content: space-between;
 }
 
-/* HEADER */
+/* == HEADER == */
 
 .mr-auto {
   margin-right: auto;
@@ -53,4 +53,114 @@ header .logo span {
   color: #6ce09c;
 }
 
-/* side-bar */
+/*== MAIN CONTENT ==*/
+
+body section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#2fc943 0%, #eeeeee 100%);
+}
+
+/*== FOOTER ==*/
+
+.py-110px {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.px-370px {
+  padding-left: 370px;
+  padding-right: 370px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #eeeeee;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #111;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 700;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #2fc943;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 333;
+  color: #111;
+  display: block;
+  transition: all 0.5s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #00d83d;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #11111129;
+  border-radius: 50%;
+  color: #1dbf58;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #82e298;
+  border: 0;
+}
+
+.cp-text {
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 9px;
+}
