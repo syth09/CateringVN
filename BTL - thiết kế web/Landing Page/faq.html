@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Normalize CSS/normalize.css" />
+    <link rel="stylesheet" href="css/faq.css" />
+    <link href="https://fonts.cdnfonts.com/css/nunito" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Catering FAQ</title>
+  </head>
+  <body>
+    <!-- /*== Header ==*/ -->
+    <header>
+      <div>
+        <a class="mr-auto logo flex justify-center" href="landing_page.html">
+          CateringVietnam<span>.</span>
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <!-- /*== Main content ==*/ -->
+      <div class="wrapper">
+        <h1>
+          <span class="greenish-letter">F</span>quently
+          <span class="greenish-letter">A</span>sked
+          <span class="greenish-letter">Q</span>uestions
+        </h1>
+
+        <div class="faq">
+          <button class="accordion flex justify-between items-center">
+            <p>
+              <span class="greenish-letter">H</span>OW FAR IN ADVANCE SHOULD I
+              BOOK?
+            </p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="panel">
+            <p>
+              We typically book 8 – 10 months in advance. We receive multiple
+              requests daily, so we can’t guarantee a date until it is booked
+              with a deposit. Once an estimate is sent out we will let you know
+              if another client becomes interested in that date. At that point
+              we will extend to you a 48 hour grace period to confirm your
+              decision.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion flex justify-between items-center">
+            <p>
+              <span class="greenish-letter">D</span>O YOU OFFER TASTE TESTINGS?
+            </p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="panel">
+            <p>
+              We do not offer personal taste testings. However, we can supply
+              you with many references that speak for the quality and flavour of
+              our menu and our over the top service!
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion flex justify-between items-center">
+            <p>
+              <span class="greenish-letter">D</span>O YOU OFFER PICK UP OPTIONS?
+            </p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="panel">
+            <p>
+              Yes! We have a fabulous catering menu and DIY buffet kit for this
+              option. Pick up menus are ideal for smaller, less formal groups.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion flex justify-between items-center">
+            <p>
+              <span class="greenish-letter">W</span>HAT DO STAFF WEAR ON SITE?
+            </p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="panel">
+            <p>
+              Our staff have a strict uniform policy. We wear white button up
+              dress shirts, black dress pants, a black vest, and black non slip
+              shoes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Goodbye word -->
+      <div class="px-60px py-110px">
+        <h1>
+          WE ARE PLEASED TO SAY THIS IS OUR FULL TIME JOB! IT’S ALL WE DO!
+        </h1>
+        <p>
+          Here at Catering VN we are extremely focused and committed to
+          perfecting our craft. We are dedicated to being a part of your
+          planning journey, right from the beginning to the last bite enjoyed!
+        </p>
+      </div>
+    </section>
+
+    <!-- /*== Footer ==*/ -->
+    <div>
+      <div class="footer">
+        <div class="container">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="landing_page.html">Catering VN</a></li>
+                <li><a href="../Introduction/about-us.html">our team</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>our partner</h4>
+              <ul>
+                <li>
+                  <a href="https://skycorporation.net/">Sky Corporation</a>
+                </li>
+                <li><a href="https://www.lua-restaurant.com/home">Lúa</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a
+                  href="https://www.facebook.com/GeekCulture/videos/895233388546566"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/phong-ta-06829628a/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <p class="cp-text">© 2023 CateringVN. All rights reserved.</p>
+    </div>
+
+    <!-- /*== Script for main content ==*/ -->
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
