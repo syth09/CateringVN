@@ -63,6 +63,60 @@ body section {
   background: linear-gradient(#2fc943 0%, #eeeeee 100%);
 }
 
+.wrapper {
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px 3px rgba(100, 141, 84, 0.5);
+  margin: 60px;
+}
+
+.wrapper h2 {
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.wrapper h2 span {
+  color: #00d83d;
+}
+
+.wrapper hr {
+  width: 100px;
+  margin: 12px auto;
+}
+
+.members {
+  padding: 20px;
+}
+
+.team-member {
+  width: 100%;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mr-60px {
+  margin-right: 60px;
+}
+
+.team-member img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-bottom: 12px;
+}
+
+.team-member h4,
+p {
+  text-align: center;
+  font-size: 12px;
+  margin: 7px;
+}
+
 /*== FOOTER ==*/
 
 .py-110px {
@@ -91,7 +145,7 @@ ul {
 
 .footer {
   background-color: #eeeeee;
-  padding: 70px 0;
+  padding: 70px;
 }
 
 .footer-col {
