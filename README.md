@@ -26,3 +26,9 @@
   + Re-run and overhaul the code.
   + Linked the footer propperly.
   + Remove unnecessary css & html code. Improved overall UX/UI.
+
+
+- 24/10/2023 - 11:18 AM
+  + Updated ver0.1
+  + Full functional Landing Page with other use
+  
