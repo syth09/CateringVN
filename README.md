@@ -25,3 +25,6 @@
   + Updated ver0.1
   + Full functional Landing Page with other use
   
+- 26/10/2023 - 4:56 PM
+  + Updated ver0.1.1
+  + Finalize, before handing in the project
