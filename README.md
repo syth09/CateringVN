@@ -28,3 +28,6 @@
 - 26/10/2023 - 4:56 PM
   + Updated ver0.1.1
   + Finalize, before handing in the project
+  
+- 27/10/2023 - 7:35 PM
+  + Adjust few missing details
