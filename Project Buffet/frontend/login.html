@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/sign_in.css" />
+    <link href="https://fonts.cdnfonts.com/css/nunito" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Login - CateringVN</title>
+  </head>
+  <body class="bgc">
+    <!-- Header -->
+    <header>
+      <div>
+        <div class="flex items-center">
+          <a class="mr-auto logo" href="../frontend/index.html"
+            >CateringVietnam<span>.</span></a
+          >
+          <a
+            rel="noopener noreferrer"
+            href="../frontend/sign_up.html"
+            class="btn"
+            >Sign Up</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Login Form -->
+    <section>
+      <div class="signinForm">
+        <form method="POST" action="../backend/login.php" class="form">
+          <h1 class="title logo">Login<span>.</span></h1>
+          <div id="error-message" style="color: red; text-align: center"></div>
+          <div class="inputContainer">
+            <input
+              type="text"
+              name="username"
+              class="input"
+              placeholder="Username"
+              required
+            />
+            <label for="" class="label">Username</label>
+          </div>
+          <div class="inputContainer">
+            <input
+              type="password"
+              name="password"
+              class="input"
+              placeholder="Password"
+              required
+            />
+            <label for="" class="label">Password</label><br /><br />
+          </div>
+          <div>
+            <button type="submit" class="btn">Login</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>© 2025 Catering Vietnam. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Hiển thị thông báo lỗi từ PHP -->
+    <script src="../frontend/js/login-error.js"></script>
+  </body>
+</html>
